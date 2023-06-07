@@ -1,0 +1,14 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: black;
+}
+#tittle-1 {
+    color: white;
+}
+#botao {
+    color:white;
+    background-color: black;
+}
+figcaption{
+    color:gray;
+}
