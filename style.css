@@ -2,13 +2,36 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: black;
 }
-#tittle-1 {
+.tittle-1 {
     color: white;
+    font-size: 32px;
 }
-#botao {
+.botao {
+    width: 200px;
     color:white;
     background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 20px;
 }
 figcaption{
     color:gray;
+    width: 32%;
+}
+.center{
+    text-align: center;
+}
+div{
+    width: 1000px;
+}
+.cards{
+    height: 12%;
+    width: 12%;
+    border-radius: 3%;
+    margin-left:100px;
+}
+.users{
+    text-align: center;
+    font-size: 17px;
 }
