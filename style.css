@@ -1,37 +1,60 @@
-body {
+body{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
-.tittle-1 {
+header{
+    margin-bottom: 60px;
+}
+.tittle-1{  
     color: white;
     font-size: 32px;
+    margin-bottom: 80px;
 }
-.botao {
+.botao{
+    height: 50px;
     width: 200px;
     color:white;
     background-color: black;
     margin: 10px;
     padding: 10px;
     border: 2px solid white;
-    font-size: 20px;
+    font-size: 15px;
+    border-radius: 10px;
 }
-figcaption{
-    color:gray;
-    width: 32%;
+.botao:hover{
+    color: black;
+    background-color: white;
 }
-.center{
-    text-align: center;
-}
-div{
+ul{
+    display: flex;
     width: 1000px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+    text-align: center;
+    align-items: center;
 }
 .cards{
-    height: 12%;
-    width: 12%;
-    border-radius: 3%;
-    margin-left:100px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
 }
 .users{
-    text-align: center;
-    font-size: 17px;
+    display: flex;
+    color: gray;
+}
+li:hover .cards{
+    border: 2px solid white;
+}
+li:hover .users{
+    color: white;
 }
